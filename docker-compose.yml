@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aspnetcore.cache:
+    image: aspnetcore.cache
+    build:
+      context: ./src/AspNetCore.Cache
+      dockerfile: Dockerfile

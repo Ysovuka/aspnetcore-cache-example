@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Cache", "src\AspNetCore.Cache\AspNetCore.Cache.csproj", "{1AF8FDFB-0D27-44FF-859C-2D007842296A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FD451D30-03C8-429A-8258-E2E7AF3E79E6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF8FDFB-0D27-44FF-859C-2D007842296A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF8FDFB-0D27-44FF-859C-2D007842296A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF8FDFB-0D27-44FF-859C-2D007842296A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF8FDFB-0D27-44FF-859C-2D007842296A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD451D30-03C8-429A-8258-E2E7AF3E79E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD451D30-03C8-429A-8258-E2E7AF3E79E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD451D30-03C8-429A-8258-E2E7AF3E79E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD451D30-03C8-429A-8258-E2E7AF3E79E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
